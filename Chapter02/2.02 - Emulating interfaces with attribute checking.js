@@ -50,3 +50,7 @@ function implements(object) {
   }
   return true // All interfaces were found.
 }
+
+addForm({
+  implementsInterfaces: ["Composite", "FormItem"],
+})
